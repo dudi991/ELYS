@@ -1,50 +1,48 @@
-
-
 const ingredientData = [
   {
     name: "MAGNESIUM BISGLYCINATE",
     desc: "Supports relaxation & muscle recovery",
-    image: "/images/magnesia.png"
+    image: "images/magnesia.png"
   },
   {
     name: "MAGNESIUM L-THREONATE (MAGTEIN®)",
     desc: "Supports cognitive recovery",
-    image: "/images/threo.png"
+    image: "images/threo.png"
   },
   {
     name: "SHODEN® ASHWAGANDHA",
     desc: "Reduces stress & supports resilience",
-    image: "/images/ash.png"
+    image: "images/ash.png"
   },
   {
     name: "SUNTHEANINE® L-THEANINE",
     desc: "Promotes calm without drowsiness",
-    image: "/images/thea.png"
+    image: "images/thea.png"
   },
   {
     name: "AFFRON® SAFFRON EXTRACT",
     desc: "Supports mood & emotional balance",
-    image: "/images/saffron.png"
+    image: "images/saffron.png"
   },
   {
     name: "PHOSPHATIDYLSERINE",
     desc: "Supports cortisol balance & cognitive performance",
-    image: "/images/phos.png"
+    image: "images/phos.png"
   },
   {
     name: "REISHI DUAL EXTRACT",
     desc: "Supports immune health & recovery",
-    image: "/images/mush.png"
+    image: "images/mush.png"
   },
   {
     name: "APIGENIN",
     desc: "Promotes relaxation & sleep quality",
-    image: "/images/chamo.png"
+    image: "images/chamo.png"
   },
   {
     name: "GLYCINE",
     desc: "Supports deeper recovery & sleep quality",
-    image: "/images/gly.png"
+    image: "images/gly.png"
   }
 ];
 

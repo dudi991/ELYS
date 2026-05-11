@@ -2,11 +2,11 @@
 
 const Gallery = () => {
   const images = [
-    "/images/gallery1.png",
-    "/images/gallery2.png",
-    "/images/gallery1.png",
-    "/images/gallery2.png",
-    "/images/gallery1.png"
+    "images/gallery1.png",
+    "images/gallery2.png",
+    "images/gallery1.png",
+    "images/gallery2.png",
+    "images/gallery1.png"
   ];
 
   return (
