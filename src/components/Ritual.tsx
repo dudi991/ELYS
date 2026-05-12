@@ -1,4 +1,4 @@
-import { Droplets, RefreshCw, Moon, Check } from 'lucide-react';
+import { Droplets, RefreshCw, Moon } from 'lucide-react';
 
 const Ritual = () => {
   return (
