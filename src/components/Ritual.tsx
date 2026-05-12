@@ -1,13 +1,33 @@
-import { Droplets, RefreshCw, Moon } from 'lucide-react';
+import { Droplets, RefreshCw, Moon, Check } from 'lucide-react';
 
 const Ritual = () => {
   return (
-    <section id="ritual" className="w-full bg-white pt-6 pb-12">
+    <section id="ritual" className="w-full bg-white pt-12 pb-24">
       <div className="max-w-[1800px] mx-auto px-8 lg:px-12">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
           
-          {/* Left Column - Image */}
-          <div className="lg:col-span-8 aspect-[16/9] bg-primary/5 overflow-hidden">
+          {/* Left Column - Intro Text */}
+          <div className="lg:col-span-4 flex flex-col justify-between h-full py-2">
+            <div>
+              <span className="text-[10px] tracking-[0.3em] font-semibold text-primary/40 uppercase mb-6 block">The Ritual</span>
+              <div className="w-12 h-[1px] bg-primary/20 mb-8"></div>
+              <h2 className="text-4xl lg:text-5xl mb-8 leading-[1.1]">
+                The Night Reset <br/>
+                <span className="italic">Ritual.</span>
+              </h2>
+              <p className="text-lg text-primary/80 mb-12 max-w-md leading-relaxed font-light">
+                An intentional sequence designed to signal to your nervous system that it's time to decompress and prepare for deep restoration.
+              </p>
+            </div>
+            
+            <div className="hidden lg:flex items-center gap-4 text-primary/40">
+              <Check className="w-5 h-5" strokeWidth={1} />
+              <span className="text-[10px] tracking-widest font-semibold uppercase">Optimized for deep recovery</span>
+            </div>
+          </div>
+
+          {/* Middle Column - Image */}
+          <div className="lg:col-span-4 aspect-[3/4] bg-primary/5 overflow-hidden">
             <img 
               src="images/ritual.png" 
               alt="Product Preparation"
@@ -15,8 +35,8 @@ const Ritual = () => {
             />
           </div>
 
-          {/* Right Column - Compact, larger icons/text */}
-          <div className="lg:col-span-4 flex flex-col gap-10 py-2 lg:pl-8">
+          {/* Right Column - Steps */}
+          <div className="lg:col-span-4 flex flex-col gap-12 py-2 lg:pl-8">
             <div className="flex gap-8 items-start">
               <Droplets className="w-14 h-14 shrink-0 text-primary/60" strokeWidth={1} />
               <div>
@@ -56,6 +76,7 @@ const Ritual = () => {
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
