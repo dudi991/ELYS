@@ -7,7 +7,7 @@ const Ritual = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-stretch">
           
           {/* Left Column - Intro & Bullet Points */}
-          <div className="lg:col-span-4 flex flex-col justify-between h-full py-4">
+          <div className="lg:col-span-4 flex flex-col gap-12 py-4">
             <div>
               <span className="text-[10px] tracking-[0.3em] font-semibold text-primary/40 uppercase mb-6 block">The Ritual</span>
               <div className="w-12 h-[1px] bg-primary/20 mb-8"></div>
@@ -15,12 +15,12 @@ const Ritual = () => {
                 The Night Reset <br/>
                 <span className="italic">Ritual.</span>
               </h2>
-              <p className="text-lg text-primary/80 mb-12 max-w-md leading-relaxed font-light">
+              <p className="text-lg text-primary/80 mb-6 max-w-md leading-relaxed font-light">
                 An intentional sequence designed to signal to your nervous system that it's time to decompress.
               </p>
             </div>
             
-            <div className="hidden lg:flex flex-col gap-6">
+            <div className="hidden lg:flex flex-col gap-4">
               <div className="flex items-center gap-4 text-primary/40">
                 <Check className="w-5 h-5" strokeWidth={1} />
                 <span className="text-[10px] tracking-widest font-semibold uppercase">Optimized for deep recovery</span>
