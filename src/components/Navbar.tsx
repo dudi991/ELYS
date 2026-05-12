@@ -12,7 +12,7 @@ const Navbar = () => {
         <a href="#faq" className="hover:text-primary transition-colors">FAQ</a>
       </div>
 
-      <button className="hidden md:block bg-accent px-8 py-3 text-[13px] tracking-widest font-semibold text-primary hover:bg-opacity-90 transition-opacity">
+      <button className="hidden md:block bg-accent px-8 py-3 text-[13px] tracking-widest font-semibold text-white hover:bg-opacity-90 transition-opacity">
         JOIN WAITLIST
       </button>
 

@@ -42,7 +42,7 @@ const Hero = () => {
             </div>
 
             <div>
-              <button className="bg-accent px-12 w-full max-w-[320px] py-4 text-xs tracking-widest font-semibold uppercase mb-4 text-primary hover:bg-opacity-80 transition-opacity">
+              <button className="bg-accent px-12 w-full max-w-[320px] py-4 text-xs tracking-widest font-semibold uppercase mb-4 text-white hover:bg-opacity-80 transition-opacity">
                 JOIN THE WAITLIST
               </button>
             </div>

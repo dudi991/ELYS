@@ -60,7 +60,7 @@ const Ingredients = () => {
           <p className="text-primary/80 mb-12 max-w-sm italic font-light">
             A curated selection of natural elements designed to gently signal to your nervous system that the day is done.
           </p>
-          <button className="bg-accent px-8 py-4 text-xs tracking-widest font-semibold uppercase text-primary hover:bg-opacity-80 transition-opacity w-max">
+          <button className="bg-accent px-8 py-4 text-xs tracking-widest font-semibold uppercase text-white hover:bg-opacity-80 transition-opacity w-max">
             DISCOVER THE INGREDIENTS
           </button>
         </div>

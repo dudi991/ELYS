@@ -17,7 +17,7 @@ const Footer = () => {
             <p className="text-sm text-primary/80 mb-6">
               ELYS Night Reset launches soon.<br />Join the waitlist and be the first to know.
             </p>
-            <button className="bg-accent px-8 py-4 text-xs tracking-widest font-semibold text-primary uppercase hover:bg-opacity-90 transition-opacity w-max mx-auto">
+            <button className="bg-accent px-8 py-4 text-xs tracking-widest font-semibold text-white uppercase hover:bg-opacity-90 transition-opacity w-max mx-auto">
               JOIN THE WAITLIST
             </button>
           </div>
